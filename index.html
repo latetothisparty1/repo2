@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mx-auto bg-white">
+        <nav class="flex border-2 border-black px-2 py-2">
+            <h2 class="cursor-pointer">Ballon d'ore 2023</h2>
+            <ul class="flex-1 text-center" >
+                <a href="#home"><li class="list-none inline-block px-5 cursor-pointer hover:scale-110">Home</li></a>
+                <a href="#contestants"><li class="list-none inline-block px-5 cursor-pointer hover:scale-110">Contestants</li></a>
+                <a href="#contact"><li class="list-none inline-block px-5 cursor-pointer hover:scale-110">Contact Us</li></a>
+            </ul>
+        </nav>
+        <main class="container">
+            <img src="/football_pics/home.png" class="h-screen">
+        </main>
+    </div>
+    <br>
+    <div class="container mx-auto">
+        <div class="flex border-2 border-black px-2 py-2">
+            <h2 class="cursor-pointer">Ballon d'or 2023</h2>
+            <ul class="flex-1 text-center" >
+                <a href="#home"><li class="list-none inline-block px-5 cursor-pointer hover:scale-110">Home</li></a>
+                <a href="#contestants"><li class="list-none inline-block px-5 cursor-pointer hover:scale-110">Contestants</li></a>
+                <a href="#contact"><li class="list-none inline-block px-5 cursor-pointer hover:scale-110">Contact Us</li></a>
+            </ul>
+        </div>
+        <div class="container flex flex-wrap" id="contestants">
+            <div class="w-1/3 p-2 hover:bg-[url('/images_hover/messi_grey')]">
+                <img src="/football_pics/messi.jpeg" class="cursor-pointer content-center z-0">
+                <img src="/images_hover/messi_grey.png" class=" text-center opacity-0 hover:opacity-50 z-10 " >
+            </div>
+            <div class="w-1/3 p-2">
+                <img src="/football_pics/haaland.jpeg" class="hover:scale-110 cursor-pointer content-center" >
+                <img src="/images_hover/erling_grey.png" class="opacity-0 hover:opacity-50">
+            </div>
+            <div class="w-1/3 p-2">
+                <img src="/football_pics/De_bruyne.png" class="hover:scale-110 cursor-pointer">
+                <img src="/images_hover/debryne_grey.png" class="opacity-0 hover:opacity-50">
+            </div>
+            <div class="w-1/3 p-2">
+                <img src="/football_pics/mbappe.png" class="hover:scale-110 cursor-pointer">
+                <img src="/images_hover/mbappe_grey.png" class="opacity-0 hover:opacity-50">
+            </div>
+            <div class="w-1/3 p-2">
+                <img src="/football_pics/vinicious.jpeg" class="hover:scale-110 cursor-pointer">
+                <img src="/images_hover/vinicious_grey.png" class="opacity-0 hover:opacity-50">
+            </div>
+            <div class="w-1/3 p-2">
+                <img src="/football_pics/gundogan.png" class="hover:scale-110 cursor-pointer">
+                <img src="/images_hover/gundogan_grey.png">
+            </div>
+            <div class="w-1/3 p-2">
+                <img src="/football_pics/alvarez.jpeg" class="hover:scale-110 cursor-pointer">
+                <img src="/images_hover/alvarez_grey.png" class="opacity-0 hover:opacity-50">
+            </div>
+            <div class="w-1/3 p-2">
+                <img src="/football_pics/Kvaratskhelia.jpeg" class="hover:scale-110 cursor-pointer">
+                <img src="/images_hover/khvicha_grey.png" class="opacity-0 hover:opacity-50">
+            </div>
+            <div class="w-1/3 p-2">
+                <img src="/football_pics/lewandowski.jpeg" class="hover:scale-110 cursor-pointer">
+                <img src="/images_hover/lewandowski_grey.png" class="opacity-0 hover:opacity-50">
+            </div>
+        </div>
+        <div class="container mx-auto bg-white">
+            <div class="flex border-2 border-black px-2 py-2">
+                <h2 class="cursor-pointer">Ballon d'or</h2>
+                <ul class="flex-1 text-center" >
+                    <a href="#home"><li class="list-none inline-block px-5 cursor-pointer hover:scale-110">Home</li></a>
+                    <a href="#contestants"><li class="list-none inline-block px-5 cursor-pointer hover:scale-110">Contestants</li></a>
+                    <a href="#contact"><li class="list-none inline-block px-5 cursor-pointer hover:scale-110">Contact Us</li></a>
+                </ul>
+            </div>
+            <div id="contact" class="min-h-screen bg-[url('/football_pics/winning_cup.jpeg')] bg-cover bg-opacity-50 z-0">
+                <br>
+                <h2 class="text-white text-3xl ml-10">Contact Us</h2>
+                <form action="#" class="ml-10 mt-5">
+                    <label for="" class="text-white">Your email</label><br>
+                    <input type="text" class="my-2"><br>
+                    <label for="" class="text-white">Your Message</label><br>
+                    <textarea name="" id=""class="p-20"></textarea><br>
+                    <button type="submit" class="text-white p-3 bg-black rounded-3xl">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
